@@ -9,4 +9,4 @@ fig = px.line(data, x='Дата', y='Количество(шт)', color='Вид 
               title='График')
 fig.show()
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run_server(debug=True)
